@@ -19,7 +19,7 @@ label {
   width: auto;
   display: inline-block;
   float: none;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 /* checkbox - each time slot */
@@ -62,6 +62,9 @@ label {
   }
   input, button, select, textarea {
   font-size: 160%;
+  }
+  .col-xs-2 {
+    padding: 0 5px;
   }
 }
 
