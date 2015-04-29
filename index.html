@@ -24,11 +24,12 @@
   </div>
   
   <div class="col-xs-12">
-      <label>Type:</label>
+      
       <div>
          <select ng-model="payment.type">
-             <option selected value="Show All">Show All</option>
+            <option value=''>Select Your Name</option>
             <option ng-repeat="day in days" value="{{ day.name }}">{{ day.name }}</option>
+            <option value="Show All">Show All</option>
          </select>
       </div>
    </div>
