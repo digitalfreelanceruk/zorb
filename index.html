@@ -27,7 +27,7 @@
       <label>Type:</label>
       <div>
          <select ng-model="payment.type">
-             <option selected value="Show All">Show All</option>
+             <option selected value=''>Show All</option>
             <option ng-repeat="day in days" value="{{ day.name }}">{{ day.name }}</option>
          </select>
       </div>
@@ -35,7 +35,7 @@
 
   <div class="row times">
     
-    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-show="payment.type == day.name" ng-if="payment.type == 'Show All'">
+    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-show="payment.type == day.name || payment.type == 'Show All'>
               
       <h2>{{ day.name }}</h2>
       
