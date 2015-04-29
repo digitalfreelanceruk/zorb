@@ -35,7 +35,7 @@
 
   <div class="row times">
     
-    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-show="payment.type == day.name">
+    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-show="payment.type == day.name" ng-if="payment.type == 'Show All'">
               
       <h2>{{ day.name }}</h2>
       
