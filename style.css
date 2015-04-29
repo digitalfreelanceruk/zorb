@@ -1,3 +1,13 @@
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.col-xs-2 {
+  width: auto;
+  display: inline-block;
+}
+
 /* checkbox - each time slot */
 .time-slot               {  }
 
