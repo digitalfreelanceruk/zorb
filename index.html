@@ -20,7 +20,8 @@
 <div class="container" ng-app="scheduleApp" ng-controller="mainController">
   
     <div class="page-header text-center">       
-        <h1>Schedule City</h1>        
+        <h1>Zorb Football</h1>
+        <h2>When Can You Play?</h2>
     </div>
 
     <div class="text-center">
@@ -37,7 +38,7 @@
         
             <div class="time-slot" ng-repeat="slot in day.slots">     
                 <input type="checkbox" id="{{ day.name }}-{{ $index }}" ng-model="slot.booked" >
-                <label for="{{ day.name }}-{{ $index }}">{{ slot.time }}<br>
+                <label for="{{ day.name }}-{{ $index }}">{{ slot.date }}<br>{{ slot.time }}
                     <span ng-if="slot.booked">Unavailable</span>
                     <span ng-if="!slot.booked">Available</span>
                 </label>
