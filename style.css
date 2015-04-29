@@ -1,5 +1,5 @@
 body {
-  font-family: ;
+  font-family: sans-serif;
 }
 
 label {
@@ -47,6 +47,12 @@ label {
 .time-slot input:not(:checked) ~ label { 
   background:#6AB074; 
   animation:flashAvailable 0.5s ease; 
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
 }
 
 /* animation for the time slot to flash red */
