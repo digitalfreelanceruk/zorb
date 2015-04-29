@@ -26,15 +26,15 @@
   <div class="col-xs-12">
       <label>Type:</label>
       <div>
-         <select placeholder="Select Your Name">
-            <option ng-repeat="day in days">{{ day.name }}</option>
+         <select ng-model="payment.type">
+            <option ng-repeat="day in days" value="{{ day.name }}">{{ day.name }}</option>
          </select>
       </div>
    </div>
 
   <div class="row times">
     
-    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}">
+    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-if="payment.type == {{ day.name }}">
               
       <h2>{{ day.name }}</h2>
       
