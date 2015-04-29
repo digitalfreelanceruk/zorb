@@ -22,6 +22,15 @@
   <div class="page-header text-center">       
     <h1>Schedule City</h1>        
   </div>
+  
+  <div class="col-xs-12">
+      <label>Type:</label>
+      <div>
+         <select>
+            <option ng-repeat="day.name in days">{{ day.name }}</option>
+         </select>
+      </div>
+   </div>
 
   <div class="row times">
     
