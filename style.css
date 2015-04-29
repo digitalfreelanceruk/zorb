@@ -55,7 +55,7 @@ label {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 80%;
+    font-size: 90%;
   }
   .time-slot label {
     padding: 5px;
