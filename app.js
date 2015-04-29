@@ -20,7 +20,7 @@ angular.module('scheduleApp', ['firebase'])
     $scope.online = snap.numChildren();
   });  
   
-  var ref = new Firebase("https://burning-torch-4263.firebaseio.com/days");
+  var ref = new Firebase("https://incandescent-heat-8927.firebaseio.com/days");
   
   // sync as object 
   $scope.days = $firebaseObject(ref);
