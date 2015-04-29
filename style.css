@@ -1,3 +1,11 @@
+body {
+  font-family: ;
+}
+
+label {
+  font-weight: normal;
+}
+
 .row {
   width: 100%;
   text-align: center;
