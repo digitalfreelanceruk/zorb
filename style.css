@@ -10,12 +10,14 @@ label {
   width: 100%;
   text-align: center;
   margin: 0;
+  padding: 0 10px;
 }
 
 .col-xs-2 {
   width: auto;
   display: inline-block;
   float: none;
+  padding: 0 5px;
 }
 
 /* checkbox - each time slot */
