@@ -1,14 +1,28 @@
-// create our angular module and inject firebase
 angular.module('scheduleApp', ['firebase'])
 
-// create our main controller and get access to firebase
-.controller('mainController', function($scope, $firebase) {
+.controller('mainController', function($scope, $firebaseObject) {
   
-  // connect to firebase 
-  var ref = new Firebase("https://incandescent-heat-8927.firebaseio.com/days");  
-  var fb = $firebase(ref);
-    
-    // sync as object 
+  // get # of real time users
+  var listRef = new Firebase("https://burning-torch-4263.firebaseio.com/presence/");
+  var userRef = listRef.push();
+  
+  // Add ourselves to presence list when online.
+  var presenceRef = new Firebase("https://burning-torch-4263.firebaseio.com/.info/connected");
+  presenceRef.on("value", function(snap) {
+    if (snap.val()) {
+      userRef.set(true);
+      // Remove ourselves when we disconnect.
+      userRef.onDisconnect().remove();
+    }
+  });
+  
+  listRef.on("value", function(snap) {
+    $scope.online = snap.numChildren();
+  });  
+  
+  var ref = new Firebase("https://burning-torch-4263.firebaseio.com/days");
+  
+  // sync as object 
   $scope.days = $firebaseObject(ref);
   
   $scope.reset = function() {    
