@@ -18,11 +18,11 @@ angular.module('scheduleApp', ['firebase'])
   $scope.reset = function() {    
 
     fb.$set({
-      monday: {
-        name: 'Monday',
+      Paul: {
+        name: 'Paul',
         slots: {
           0900: {
-            time: '9:00am',
+            time: 'Sunday 17th May : 11am - 8pm',
             booked: false
           },
           0110: {
