@@ -18,28 +18,431 @@ angular.module('scheduleApp', ['firebase'])
   $scope.reset = function() {    
 
     fb.$set({
-      Paul: {
-        name: 'Paul',
+      Ben: {
+        name: 'Ben',
         slots: {
-          0900: {
-            time: 'Sunday 17th May : 11am - 8pm',
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
             booked: false
           },
-          0110: {
-            time: '11:00am',
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
             booked: false
           }
         }
       },
-      tuesday: {
-        name: 'Tuesday',
+      Greg: {
+        name: 'Greg',
         slots: {
-          0900: {
-            time: '9:00am',
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
             booked: false
           },
-          0110: {
-            time: '11:00am',
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Tim: {
+        name: 'Tim',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Danny: {
+        name: 'Danny',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Ken: {
+        name: 'Ken',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Martin: {
+        name: 'Martin',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Paul: {
+        name: 'Paul',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Butch: {
+        name: 'Butch',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Adam: {
+        name: 'Adam',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Moore: {
+        name: 'Moore',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Jimmy: {
+        name: 'Jimmy',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      Pete: {
+        name: 'Pete',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
+            booked: false
+          }
+        }
+      },
+      John: {
+        name: 'John',
+        slots: {
+          1: {
+            time: 'Sunday 17th May <br> 11am - 8pm',
+            booked: false
+          },
+          2: {
+            time: 'Monday 18th May <br> 7pm - 8pm',
+            booked: false
+          },
+          3: {
+            time: 'Monday 1st June <br> 7pm - 8pm',
+            booked: false
+          },
+          4: {
+            time: 'Sunday 7th June <br> 11am - 8pm',
+            booked: false
+          },
+          5: {
+            time: 'Monday 8th June <br> 7pm - 8pm',
+            booked: false
+          },
+          6: {
+            time: 'Sunday 14th June <br> 11am - 8pm',
+            booked: false
+          },
+          7: {
+            time: 'Monday 15th June <br> 7pm - 8pm',
             booked: false
           }
         }
