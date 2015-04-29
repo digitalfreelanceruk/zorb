@@ -34,7 +34,7 @@
         <input type="checkbox" id="{{ day.name }}-{{ $index }}" ng-model="slot.booked" >
   
         <label for="{{ day.name }}-{{ $index }}">{{ slot.time }}<br>
-          <span ng-if="slot.booked">Booked</span>
+          <span ng-if="slot.booked">Unavailable</span>
           <span ng-if="!slot.booked">Available</span>
         </label>
   
