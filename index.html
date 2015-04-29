@@ -34,7 +34,7 @@
 
   <div class="row times">
     
-    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-if="payment.type == {{ day.name }}">
+    <div class="col-xs-4 text-center" ng-repeat="day in days" id="{{ day.name }}" ng-if="payment.type == day.name">
               
       <h2>{{ day.name }}</h2>
       
