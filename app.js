@@ -21,32 +21,39 @@ angular.module('scheduleApp', ['firebase'])
       Ben: {
         name: 'Ben',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -54,32 +61,39 @@ angular.module('scheduleApp', ['firebase'])
       Greg: {
         name: 'Greg',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -87,32 +101,39 @@ angular.module('scheduleApp', ['firebase'])
       Tim: {
         name: 'Tim',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -120,32 +141,39 @@ angular.module('scheduleApp', ['firebase'])
       Danny: {
         name: 'Danny',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -153,32 +181,39 @@ angular.module('scheduleApp', ['firebase'])
       Ken: {
         name: 'Ken',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -186,32 +221,39 @@ angular.module('scheduleApp', ['firebase'])
       Martin: {
         name: 'Martin',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -219,32 +261,39 @@ angular.module('scheduleApp', ['firebase'])
       Paul: {
         name: 'Paul',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -252,32 +301,39 @@ angular.module('scheduleApp', ['firebase'])
       Butch: {
         name: 'Butch',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -285,32 +341,39 @@ angular.module('scheduleApp', ['firebase'])
       Adam: {
         name: 'Adam',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -318,32 +381,39 @@ angular.module('scheduleApp', ['firebase'])
       Moore: {
         name: 'Moore',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -351,32 +421,39 @@ angular.module('scheduleApp', ['firebase'])
       Jimmy: {
         name: 'Jimmy',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -384,32 +461,39 @@ angular.module('scheduleApp', ['firebase'])
       Pete: {
         name: 'Pete',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
@@ -417,32 +501,39 @@ angular.module('scheduleApp', ['firebase'])
       John: {
         name: 'John',
         slots: {
-          0: {
-            time: 'Sunday 17th May <br> 11am - 8pm',
+          100: {
+            date: 'Sunday 17th May',
+            time: '11am - 8pm',
             booked: false
           },
-          1: {
-            time: 'Monday 18th May <br> 7pm - 8pm',
+          200: {
+            date: 'Monday 18th May',
+            time: '7pm - 8pm',
             booked: false
           },
-          2: {
-            time: 'Monday 1st June <br> 7pm - 8pm',
+          300: {
+            date: 'Monday 1st June',
+            time: '7pm - 8pm',
             booked: false
           },
-          3: {
-            time: 'Sunday 7th June <br> 11am - 8pm',
+          400: {
+            date: 'Sunday 7th June',
+            time: '11am - 8pm',
             booked: false
           },
-          4: {
-            time: 'Monday 8th June <br> 7pm - 8pm',
+          500: {
+            date: 'Monday 8th June',
+            time: '7pm - 8pm',
             booked: false
           },
-          5: {
-            time: 'Sunday 14th June <br> 11am - 8pm',
+          600: {
+            date: 'Sunday 14th June',
+            time: '11am - 8pm',
             booked: false
           },
-          6: {
-            time: 'Monday 15th June <br> 7pm - 8pm',
+          700: {
+            date: 'Monday 15th June',
+            time: '7pm - 8pm',
             booked: false
           }
         }
