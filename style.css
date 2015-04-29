@@ -55,10 +55,10 @@ label {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 90%;
+    font-size: 80%;
   }
   .time-slot label {
-    padding: 10px;
+    padding: 5px;
   }
   input, button, select, textarea {
   font-size: 160%;
