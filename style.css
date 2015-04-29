@@ -6,9 +6,7 @@ label {
   font-weight: normal;
 }
 
-input, button, select, textarea {
-  font-size: 200%;
-}
+
 
 .row {
   width: 100%;
@@ -56,8 +54,14 @@ input, button, select, textarea {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    font-size: 90%;
+  }
   .time-slot label {
     padding: 10px;
+  }
+  input, button, select, textarea {
+  font-size: 160%;
   }
 }
 
