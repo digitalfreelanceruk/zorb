@@ -14,6 +14,11 @@ angular.module('scheduleApp', ['firebase'])
    // three way data binding
   syncObject.$bindTo($scope, 'days');
   
+   // Dropdown
+  $scope.changeme = function() {
+  alert('here');
+  }
+  
   // function to set the default data
   $scope.reset = function() {    
 
