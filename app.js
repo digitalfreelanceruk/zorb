@@ -41,5 +41,11 @@ angular.module('scheduleApp', ['firebase'])
       });    
   
     };
+    
+    // sync as object 
+    var syncObject = fb.$asObject();
+    
+    // three way data binding
+    syncObject.$bindTo($scope, 'days');
   
 });
